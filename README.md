@@ -18,7 +18,19 @@
 * [jsdoc](http://xyz.com) (All assignments)
 
 ### Modules
-#### `modulename.js`
+#### `middleware/404.js` -handes 404 error
+#### `middleware/error.js` -handles 500 error
+#### `middleware/model-finder.js` -finds model
+#### `models/categories-schema.js` -establishes schema for categories model
+#### `models/categories.js` extends datamodel class with categories
+#### `models/model.js` cretaes datamodel class
+#### `moedls/products-schema.js` -establishes schema for products model
+#### `models/products.js`  extends datamodel class with products
+#### `routes/v1.js.js` api route
+#### `src/app.js` -runs app via index.js
+
+
+
 ##### Exported Values and Methods
 
 ### API Requirements
@@ -33,15 +45,18 @@
 
 ### Setup
 #### `.env` requirements
-* `PORT` - Port defined in ENV
+* `PORT` - Port defined in ENV or 3000
 * [`MONGODB_URI` (click)](mongodb://heroku_s1gcj03q:9v1bvdcga6aj1obn3ucucshle8@ds153304.mlab.com:53304/heroku_s1gcj03q)
 
 #### Running the app
 * `npm i` to install dependencies
-* `npm start`
+* terminal 1: start `mongod` run `mongo` DB
+* terminal 2: `nodemon` to run server
+* terminal 3: run `echo` commands to get, put, post, delete.  find command examples in `./src/routes/v1.js`
+
   
 #### Tests
-* How do you run tests?
+* npm test
 * What assertions were made?
 * What assertions need to be / should be made?
 
