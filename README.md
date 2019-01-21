@@ -14,8 +14,8 @@
 * [back-end](https://lab14-orm-modeling-rg.herokuapp.com)
 
 #### Documentation
-* [swagger](http://xyz.com) (API assignments only)
-* [jsdoc](http://xyz.com) (All assignments)
+* [swagger](https://github.com/rkgallaway/14-orm-and-modeling/blob/master/docs/config/swagger.json) 
+* [jsdoc](https://github.com/rkgallaway/14-orm-and-modeling/blob/master/docs/index.html) 
 
 ### Modules
 #### `middleware/404.js` -handes 404 error
