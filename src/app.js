@@ -8,7 +8,7 @@ const morgan = require('morgan');
 // Esoteric Resources
 const errorHandler = require( './middleware/error.js');
 const notFound = require( './middleware/404.js' );
-const apiRouter = require('./routes/v1');
+const apiRouter = require('./api/v1');
 // const teamRouter = require( './api/teams.js' );
 // const playersRouter = require( './api/players.js' );
 
