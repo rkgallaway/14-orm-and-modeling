@@ -4,7 +4,7 @@ const categoriesSchema = require('./categories-schema');
 const DataModel = require('./model');
 
 /**
- *class categories extends datamodel
+ *Class categories extends datamodel
  *
  * @class Categories
  * @extends {DataModel}
