@@ -1,7 +1,7 @@
 'use strict';
 
 const express = require('express');
-const modelFinder = require('../middleware/error');
+const modelFinder = require('../middleware/model-finder.js');
 
 const router = express.Router();
 router.param('model', modelFinder);
